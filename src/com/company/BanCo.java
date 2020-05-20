@@ -26,7 +26,7 @@ public class BanCo implements IBanCo {
     }
     @Override
     public boolean diChuyen(BanCo x, BanCo y) {
-        if ((x.getX() + x.getY() % 2) == (y.getX() + y.getY()) % 2) {
+        if ((x.getX() + x.getY()) % 2 == (y.getX() + y.getY()) % 2) {
             return true;
         }
         return false;

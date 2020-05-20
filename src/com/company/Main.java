@@ -23,7 +23,6 @@ public class Main {
         for (int i = 0; i < banCo.length; i++) {
             for (int j = 0; j < banCo[i].length; j++) {
                 if (check) {
-                    System.out.println("Đúng");
                     if (banCo[i][j] == banCo[x1][y1]) {
                         System.out.println("Đúng");
                         break;
